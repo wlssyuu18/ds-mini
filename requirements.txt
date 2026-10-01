@@ -1,0 +1,14 @@
+# 데이터 처리 & MATLAB 파일 로드
+numpy
+pandas
+scipy
+mat73
+h5py
+
+# 시각화
+matplotlib
+seaborn
+
+# 머신러닝 & 노트북
+scikit-learn
+jupyter
