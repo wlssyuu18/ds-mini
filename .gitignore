@@ -2,12 +2,20 @@
 .venv/
 venv/
 
-# 파이썬 캐시 및 체크포인트
+# 파이썬 캐시 및 주피터 체크포인트
 __pycache__/
+.ipynb_checkpoints/
 
-# 데이터 및 과제 문서 파일
-data/
-docs/
+# 데이터 및 과제 문서 파일 (루트 전용)
+/data/
+/docs/
 
-# 맥/OS 설정 파일
+# 산출물 및 임시 실험 폴더 (루트 전용)
+/results/
+/scratch/
+
+# IDE 및 에디터 설정
+.vscode/
+
+# OS 설정 파일
 .DS_Store
