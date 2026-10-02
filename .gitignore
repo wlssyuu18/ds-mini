@@ -10,8 +10,10 @@ __pycache__/
 /data/
 /docs/
 
-# 산출물 및 임시 실험 폴더 (루트 전용)
-/results/
+# 중간 산출물 및 임시 실험 폴더 (루트 전용)
+/results/*
+!/results/model_performance.csv
+!/results/model_residual_analysis.png
 /scratch/
 
 # IDE 및 에디터 설정
